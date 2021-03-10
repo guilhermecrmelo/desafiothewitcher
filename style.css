@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+header {
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.headerbox {
+    width: 70vw;
+    height: 12vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerbox div {
+    width: 260px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.headerbox div img {
+    width: 44px;
+    height: 86px;
+}
+
+.headerbox div h2 {
+    color: #ccc;
+    font-size: 1.0625em;
+    text-transform: uppercase;
+}
+
+.headerbox ul {
+    width: 34vw;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerbox ul li {}
+
+.headerbox ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 1.0625em;
+    text-transform: uppercase;
+}
+
+.headerbox ul li a:hover {
+    font-weight: bold;
+    color: #fff;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url(background.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.mainbox {
+    width: 32vw;
+    height: 62vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img {
+    background-color: green;
+    align-self: flex-end;
+    position: absolute;
+    width: 600px;
+    height: 90vh;
+    background: url(gerald.png) no-repeat;
+    background-size: cover;
+    z-index: -2;
+}
+
+.mainbox div {}
+
+.mainbox img {
+    /* color: green; */
+    margin-bottom: 20px;
+    width: 394px;
+    height: 186px;
+}
+
+.mainbox button {
+    width: 308px;
+    height: 57px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: red;
+    border: 1px solid #000;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
